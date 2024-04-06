@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>NUTROVIA</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"
+          ><img src="./assets/img/logo.svg" alt=""
+        /></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                href="#home"
+                class="nav__link active-link"
+                style="color: #fcab10"
+                >Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact us</a>
+            </li>
+            <input
+              type="text"
+              class="nav___input"
+              placeholder="Search for Products"
+            />
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+
+        <a href="#" class="headericons">
+          <img src="./assets//img/shopping_bag.svg" alt="" />
+          <img src="./assets//img/cart.png" alt="" />
+        </a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <style>
+          #home {
+            position: relative;
+            height: 100vh;
+          }
+
+          .swiper {
+            width: 100%;
+            height: 100%;
+          }
+
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+          }
+
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        </style>
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="home__container container grid homesection"
+                style="padding-bottom: 0px"
+              >
+                <div class="Left_section">
+                  <img
+                    class="baner___small"
+                    src="./assets//img/bannerl1.png"
+                    alt=""
+                  />
+                  <h3>A new lift to Healthy life</h3>
+                  <p>
+                    Discover Nutrovia’s innovative and highest quality <br />
+                    wellness products for optimum health.
+                  </p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="Right_section">
+                  <img src="./assets//img/banner.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="home__container container grid"
+                style="padding-bottom: 0px"
+              >
+                <div class="Left_section">
+                  <img
+                    class="baner___small"
+                    src="./assets//img/bannerl1.png"
+                    alt=""
+                  />
+                  <h3>A new lift to Healthy life</h3>
+                  <p>
+                    Discover Nutrovia’s innovative and highest quality <br />
+                    wellness products for optimum health.
+                  </p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="Right_section">
+                  <img src="./assets//img/banner.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="home__container container grid"
+                style="padding-bottom: 0px"
+              >
+                <div class="Left_section">
+                  <img
+                    class="baner___small"
+                    src="./assets//img/bannerl1.png"
+                    alt=""
+                  />
+                  <h3>A new lift to Healthy life</h3>
+                  <p>
+                    Discover Nutrovia’s innovative and highest quality <br />
+                    wellness products for optimum health.
+                  </p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="Right_section">
+                  <img src="./assets//img/banner.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="home__container container grid"
+                style="padding-bottom: 0px"
+              >
+                <div class="Left_section">
+                  <img
+                    class="baner___small"
+                    src="./assets//img/bannerl1.png"
+                    alt=""
+                  />
+                  <h3>A new lift to Healthy life</h3>
+                  <p>
+                    Discover Nutrovia’s innovative and highest quality <br />
+                    wellness products for optimum health.
+                  </p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="Right_section">
+                  <img src="./assets//img/banner.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="home__container container grid"
+                style="padding-bottom: 0px"
+              >
+                <div class="Left_section">
+                  <img
+                    class="baner___small"
+                    src="./assets//img/bannerl1.png"
+                    alt=""
+                  />
+                  <h3>A new lift to Healthy life</h3>
+                  <p>
+                    Discover Nutrovia’s innovative and highest quality <br />
+                    wellness products for optimum health.
+                  </p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="Right_section">
+                  <img src="./assets//img/banner.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about" id="about">
+        <div class="about__container container">
+          <img
+            class="about_illustrator"
+            src="./assets/img/aboutl1.png"
+            alt=""
+          />
+          <div class="About_content">
+            <h3>Elevate Your Nutrition Journey</h3>
+            <p>
+              We deliver nutritional and dietary supplements backed by clinical
+              research. As a holistic wellness provider in the world, we believe
+              in healthy & active life. Keeping you healthy, happy, and fit, is
+              in our gene pool.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== services ===============-->
+      <section class="security sectionSlider container">
+        <div class="security__container">
+          <!-- slider -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  id="news-slider"
+                  class="owl-carousel"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets//img/b1.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets/img/b2.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets/img/b3.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets/img/b4.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets/img/b1.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets/img/b2.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets/img/b3.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="post-slide">
+                    <div class="post-img">
+                      <img src="./assets/img/b4.png" alt="" />
+                      <a href="#" class="over-layer"
+                        ><i class="fa fa-link"></i
+                      ></a>
+                    </div>
+                    <div class="post-content">
+                      <h3 class="post-title">Curcumin</h3>
+                      <p>₹ 500.00</p>
+                      <div class="stars">
+                        <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                        ><i class="bx bxs-star lastone"></i>
+                      </div>
+                      <div class="buynow_add">
+                        <button>BUY NOW</button>
+                        <p>Add to bag <i class="bx bx-shopping-bag"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slider -->
+        </div>
+      </section>
+
+      <!--=============== another service ===============-->
+      <section class="services" id="services" style="background: #ebefe4">
+        <div class="about__container container grid" style="position: relative">
+          <div class="Left_Content">
+            <img class="L1_img" src="./assets/img/Group 152.png" alt="" />
+            <h3 data-aos="fade-up" data-aos-duration="3000">ACTIVE COMPOUND</h3>
+            <p data-aos="fade-up" data-aos-duration="3000">
+              A perfect beverage for every age with <br />
+              exemplary benefits
+            </p>
+            <button data-aos="fade-up" data-aos-duration="3000">
+              SHOP NOW
+            </button>
+          </div>
+          <div class="right___img">
+            <img src="./assets/img/Group 236.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WHY NUTROVIA ===============-->
+      <section class="app">
+        <div class="app__container section container">
+          <h3 class="why__head">Why Nutrovia ?</h3>
+          <div
+            class="Nutrovia_cards"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="First_card">
+              <img src="./assets/img/card4.png" alt="" />
+              <p>
+                In-depth analyses of how nutritional <br />
+                science enhances health
+              </p>
+            </div>
+            <div class="First_card">
+              <img src="./assets/img/card3.png" alt="" />
+              <p>
+                We ensure each product complies<br />
+                with regulatory requirements
+              </p>
+            </div>
+            <div class="First_card">
+              <img src="./assets/img/card2.png" alt="" />
+              <p>
+                Your wellness matters<br />
+                the most
+              </p>
+            </div>
+            <div class="First_card">
+              <img src="./assets/img/card1.png" alt="" />
+              <p>100% fresh supplements for <br />your optimal health</p>
+            </div>
+          </div>
+          <img class="bg___side" src="./assets/img/bg1.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Eat well -->
+      <section class="Eat">
+        <div
+          class="about__container Eatsection container"
+          style="position: relative"
+        >
+          <div class="Eat__well_content">
+            <img src="./assets/img/E1.png" alt="" />
+            <h3>Eat well to be well</h3>
+            <p>
+              Optimise your health with Nutrovia’s organic dietary products. We
+              ensure complete <br />
+              transparency regarding the ingredients, formulations and dosages
+              for all our products.
+            </p>
+          </div>
+          <div
+            class="Eat__well_box"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <div class="left__well">
+              <h3>We believe...</h3>
+              <p>
+                <img src="./assets/img/healthcare 1.png" alt="" /> Life isn’t
+                just living; its living in well-being
+              </p>
+              <p>
+                <img src="./assets/img/healthcare 2.png" alt="" />Better health,
+                better life
+              </p>
+              <p>
+                <img src="./assets/img/healthcare 3.png" alt="" />Nature is the
+                best healer
+              </p>
+              <p>
+                <img src="./assets/img/healthcare 4.png" alt="" />Be organic to
+                unlock your potential
+              </p>
+            </div>
+            <div class="right__well">
+              <img src="./assets/img/belive.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="Eat__well_cards"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="Eat__card">
+              <img src="./assets/img/organic.png" alt="" />
+              <p class="O_p1">Organic</p>
+              <p class="O_p2">
+                We strive to stay up-to-date with the latest scientific
+                advancements and delivers
+              </p>
+            </div>
+            <div class="Eat__card">
+              <img src="./assets/img/vegan.svg" alt="" />
+              <p class="O_p1">Vegan</p>
+              <p class="O_p2">
+                We strive to stay up-to-date with the latest scientific
+                advancements and delivers
+              </p>
+            </div>
+            <div class="Eat__card">
+              <img src="./assets/img/gulten.png" alt="" />
+              <p class="O_p1">Gulten free</p>
+              <p class="O_p2">
+                We strive to stay up-to-date with the latest scientific
+                advancements and delivers
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="Testimonial">
+        <img class="bgtestimonial" src="./assets/img/testimonial.svg" alt="" />
+        <div class="container">
+          <h3 class="headetestimonial">Testimonials</h3>
+          <div class="Testimonial_parent">
+            <div class="left_testimonial">
+              <div class="first_person">
+                <img src="./assets/img/Ellipse 31.png" alt="" />
+                <p style="color: #3e8409; font-weight: 600">Dr. James Kurian</p>
+              </div>
+              <div class="first_person">
+                <img src="./assets/img/Ellipse 32.png" alt="" />
+                <p>Dr. Benjamin Thompson</p>
+              </div>
+              <div class="first_person">
+                <img src="./assets/img/Ellipse 33.png" alt="" />
+                <p>Dr. Samantha Ramirez</p>
+              </div>
+              <div class="first_person">
+                <img src="./assets/img/Ellipse 34.png" alt="" />
+                <p>Dr. Alexander Lee</p>
+              </div>
+            </div>
+            <div class="right_testimonial">
+              <img
+                class="testleaf"
+                src="./assets/img/testimonialleaf.png"
+                alt=""
+              />
+              <h4>It was a great experience!</h4>
+              <p>
+                I wanted to take a moment to express my gratitude and share my
+                positive experience with your incredible organic supplement.
+                Nutrovia has truly been a game-changer in my journey towards
+                better health and well-being. Since incorporating Nutrovia into
+                my daily routine, I have noticed a significant improvement in my
+                overall vitality and energy levels. The carefully selected
+                organic ingredients in this supplement have provided me with the
+                natural boost I needed to tackle each day with vigor and
+                enthusiasm. Not only has Nutrovia helped me feel more energized,
+                but it has also contributed to the improvement of my immune
+                system. As someone who used to fall victim to every passing cold
+                or flu, I am thrilled to say that Nutrovia has made a noticeable
+                difference in strengthening my immune response. I now feel more
+                resilient and better equipped to fight off illnesses, allowing
+                me to enjoy life to the fullest.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial -->
+
+      <!--=============== CONTACT US ===============-->
+      <section class="contact section container" id="contact">
+        <div class="about__container grid">
+          <div
+            class="Conatct_Left"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <img src="./assets/img/OBJECTS_.svg" alt="" />
+          </div>
+          <div
+            class="Contact__right"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
+            <h3>
+              Ask anything you <br />
+              want to know...
+            </h3>
+            <form action="" class="formsection">
+              <div class="NAME_EMAIL">
+                <div class="name">
+                  <label for="">Your Name</label>
+                  <input
+                    required
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="email">
+                  <label for="">Email Address</label>
+                  <input required type="text" placeholder="Your Email" />
+                </div>
+              </div>
+              <div class="subject">
+                <input required type="text" placeholder="Select Subject" />
+              </div>
+              <div class="message">
+                <label for="">Your Message</label>
+                <textarea
+                  required
+                  name=""
+                  id=""
+                  cols="25"
+                  rows="4"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <div class="submit_btn">
+                <button>SUBMIT</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section" style="padding-bottom: 0px">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo"
+            ><img src="./assets/img/logofooter.png" alt=""
+          /></a>
+          <p class="footer__description">
+            Discover Nutrovia’s innovative and highest quality wellness products
+            for optimum health.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">ABOUT US</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Why Nutrovia? </a></li>
+            <li><a href="#" class="footer__link">Our Products</a></li>
+            <li><a href="#" class="footer__link">Wellness Army</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content" style="text-align: left">
+          <h3 class="footer__title">HELP</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Orders & Shipping</a></li>
+            <li><a href="#" class="footer__link">Returns & Refounds</a></li>
+            <li><a href="#" class="footer__link">FAQ’s</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content" style="text-align: left">
+          <h3 class="footer__title">FOLLOW US</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">
+                <div class="footer__socialmedia">
+                  <a href=""><i class="bx bxl-facebook"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+                  <a href=""><i class="bx bxl-youtube"></i></a>
+                </div>
+              </a>
+            </li>
+            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+            <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__social" style="text-align: left">
+          <h3 class="footer__title">CONTACT US</h3>
+          <ul class="footer__linkscontact">
+            <li>
+              <a href="" class="footer__link2" style="text-decoration: none"
+                ><img src="./assets/img/Vectorf1.png" alt="" /> +91
+                9876543210</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link2" style="text-decoration: none"
+                ><img src="./assets/img/Vectorf2.png" alt="" />
+                nutrovia@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link2" style="text-decoration: none"
+                ><img src="./assets/img/Vectorf3.png" alt="" />
+                www.nutrovia.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_inner container">
+        <div class="footer___left">
+          Disclaimer: All statements are based on clinically studied benefits of
+          each ingredient. This <br />
+          product is not intended to diagnose, treat, cure or prevent any
+          disease.
+        </div>
+        <div class="footer__right">
+          <img src="./assets/img/FSSAI 1.png" alt="" />
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <div class="parentcopyright container">
+          <div class="left_copy">
+            Copyright © 2023 Nutrovia All Rights Reserved.
+          </div>
+          <div class="right_company">Powered by <span>AKIRA</span></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#news-slider").owlCarousel({
+          items: 4,
+          itemsDesktop: [1199, 4],
+          itemsDesktopSmall: [980, 2],
+          itemsMobile: [600, 1],
+          navigation: true,
+          navigationText: ["", ""],
+          pagination: true,
+          autoPlay: true,
+        });
+      });
+    </script>
+    <script>
+      var isBeyo = true;
+
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        loop: true, // Loop the slides
+        autoplay: {
+          delay: 3000, // Delay between slides in milliseconds
+          disableOnInteraction: false, // Enable autoplay even if user interacts with swiper
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        on: {
+          beforeTransitionStart: function (swiper) {
+            console.log("isEdgeLeaning: ", isEdgeLeaning);
+          },
+          realIndexChange: function (swiper) {
+            isEdgeLeaning = false;
+          },
+          slideChangeTransitionEnd: function (swiper) {
+            isEdgeLeaning = true;
+          },
+        },
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
